@@ -5,7 +5,7 @@ import { S3Image } from 'aws-amplify-react';
 import AWS from 'aws-sdk';
 import { v4 as uuid } from 'uuid';
 import { Form, Image } from 'semantic-ui-react';
-import awsmobile from './aws-exports';
+import awsmobile from './Awsexports';
 Amplify.configure(awsmobile);
 
 const S3 = async () => {
